@@ -1,10 +1,18 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Home from "./Pages/Home";
+
 export default function App() {
   return (
-    <div className="min-h-screen bg-green-600 flex items-center justify-center">
-      <h1 className="text-5xl font-extrabold text-white">
-        TAILWIND IS WORKING
-      </h1>
-    </div>
+    <>
+      <Router>
+          <Header/>
+          <Routes>
+            <Route path={"/"} exact={true} element={<Home/>}/>
+          </Routes>
+      </Router>
+    </>
+    
   )
 }
 
