@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import Search from '../Search';
+import './index.css'
 
 export const Header = () => {
   return (
@@ -29,7 +31,9 @@ export const Header = () => {
                 <div className="main-col1">
                     <Link to={"/"}><img src="/logo.svg" alt='image'width={222} height={44}/></Link>
                 </div>
-                <div className="main-col2"></div>
+                <div className="main-col2">
+                    <Search/>
+                </div>
                 <div className="main-col3"></div>
             </div>
         </div>
