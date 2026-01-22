@@ -1,12 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Search from "../Search";
-import "./index.css";
-import Button from "@mui/material/Button";
+import "./style.css";
+import Badge from "@mui/material/Badge";
+import { styled } from "@mui/material/styles";
+import IconButton from "@mui/material/IconButton";
+import { MdOutlineShoppingCart } from "react-icons/md";
+import { IoGitCompareOutline } from "react-icons/io5";
+import { FaRegHeart } from "react-icons/fa6";
+import Tooltip from '@mui/material/Tooltip';
+import Navigation from "./Navigation";
 
-export const Header = () => {
+
+const StyledBadge = styled(Badge)(({ theme }) => ({
+  "& .MuiBadge-badge": {
+    // right: -3,
+    // top: 13,
+    border: `2px solid ${(theme.vars ?? theme).palette.background.paper}`,
+    padding: "0 4px",
+  },
+}));
+
+const Header = () => {
   return (
-    <header>
+    <header className="header-container">
       <div className="top-strip">
         <div className="container">
           <div className="top-header">
@@ -45,12 +62,67 @@ export const Header = () => {
           <div className="main-col3">
             <ul className="signupList">
               <li className="signupListItem">
-                <Link to={"login"} className="link loginLinkStyle">Login</Link> | <Link to={"Register"} className="link loginLinkStyle">Register</Link>
+                <Link to={"login"} className="link loginLinkStyle">
+                  Login
+                </Link>{" "}
+                |{" "}
+                <Link to={"Register"} className="link loginLinkStyle">
+                  Register
+                </Link>
+              </li>
+              <li>
+                <Tooltip title="Compare">
+                <IconButton aria-label="cart">
+                  <StyledBadge
+                    badgeContent={4}
+                    color="secondary"
+                    anchorOrigin={{
+                      vertical: "top",
+                      horizontal: "right",
+                    }}
+                  >
+                    <IoGitCompareOutline />
+                  </StyledBadge>
+                </IconButton>
+                </Tooltip>
+              </li>
+              <li>
+                <Tooltip title="Wishlist">
+                <IconButton aria-label="cart">
+                  <StyledBadge
+                    badgeContent={4}
+                    color="secondary"
+                    anchorOrigin={{
+                      vertical: "top",
+                      horizontal: "right",
+                    }}
+                  >
+                    <FaRegHeart />
+                  </StyledBadge>
+                </IconButton>
+                </Tooltip>
+              </li>
+              <li>
+                <Tooltip title="Cart">
+                <IconButton aria-label="cart">
+                  <StyledBadge
+                    badgeContent={4}
+                    color="secondary"
+                    anchorOrigin={{
+                      vertical: "top",
+                      horizontal: "right",
+                    }}
+                  >
+                    <MdOutlineShoppingCart />
+                  </StyledBadge>
+                </IconButton>
+                </Tooltip>
               </li>
             </ul>
           </div>
         </div>
       </div>
+      <Navigation/>
     </header>
   );
 };
