@@ -58,18 +58,15 @@
 }
 .main-col1 {
   width: 25%;
-  /* background-color: green; */
 }
 .main-col2 {
   width: 45%;
-  /* background-color: red; */
 }
 .main-col3 {
   width: 30%;
   display: flex;
   align-items: center;
   padding-left: 1.75rem;
-  /* background-color: yellow; */
 }
 .signupList{
   display: flex;

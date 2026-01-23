@@ -23,7 +23,7 @@ const Navigation = () => {
               sx={{
                 color: "black",
                 gap: "8px",
-                width: "90%",
+                width: "70%",
                 fontWeight: "500",
                 textTransform: "none",
                 "&:hover": {
@@ -46,8 +46,11 @@ const Navigation = () => {
                       fontWeight: "500",
                       textTransform: "none",
                       "&:hover": {
-                        backgroundColor: "rgba(0,0,0,0.05)",
+                        backgroundColor: "rgba(0, 0, 0, 0.05)",
                         color: "var(--color-primary)",
+                      },
+                      "& .MuiTouchRipple-child": {
+                        backgroundColor: "rgba(0, 0, 0, 0.5) !important",
                       },
                     }}
                   >
@@ -65,6 +68,9 @@ const Navigation = () => {
                       "&:hover": {
                         backgroundColor: "rgba(0,0,0,0.05)",
                         color: "var(--color-primary)",
+                      },
+                      "& .MuiTouchRipple-child": {
+                        backgroundColor: "rgba(0, 0, 0, 0.5) !important",
                       },
                     }}
                   >
@@ -84,6 +90,13 @@ const Navigation = () => {
                             textAlign: "left",
                             justifyContent: "start",
                             borderRadius: "0",
+                            "&:hover": {
+                              backgroundColor: "rgba(0, 0, 0, 0.05)",
+                              color: "var(--color-primary)",
+                            },
+                            "& .MuiTouchRipple-child": {
+                              backgroundColor: "rgba(0, 0, 0, 0.5) !important",
+                            },
                           }}
                         >
                           Men
@@ -101,6 +114,14 @@ const Navigation = () => {
                                     textAlign: "left",
                                     justifyContent: "start",
                                     borderRadius: "0",
+                                    "&:hover": {
+                                      backgroundColor: "rgba(0, 0, 0, 0.05)",
+                                      color: "var(--color-primary)",
+                                    },
+                                    "& .MuiTouchRipple-child": {
+                                      backgroundColor:
+                                        "rgba(0, 0, 0, 0.5) !important",
+                                    },
                                   }}
                                 >
                                   T-Shirt
@@ -117,6 +138,14 @@ const Navigation = () => {
                                     textAlign: "left",
                                     justifyContent: "start",
                                     borderRadius: "0",
+                                    "&:hover": {
+                                      backgroundColor: "rgba(0, 0, 0, 0.05)",
+                                      color: "var(--color-primary)",
+                                    },
+                                    "& .MuiTouchRipple-child": {
+                                      backgroundColor:
+                                        "rgba(0, 0, 0, 0.5) !important",
+                                    },
                                   }}
                                 >
                                   Jeans
@@ -133,6 +162,14 @@ const Navigation = () => {
                                     textAlign: "left",
                                     justifyContent: "start",
                                     borderRadius: "0",
+                                    "&:hover": {
+                                      backgroundColor: "rgba(0, 0, 0, 0.05)",
+                                      color: "var(--color-primary)",
+                                    },
+                                    "& .MuiTouchRipple-child": {
+                                      backgroundColor:
+                                        "rgba(0, 0, 0, 0.5) !important",
+                                    },
                                   }}
                                 >
                                   Pents
@@ -149,6 +186,14 @@ const Navigation = () => {
                                     textAlign: "left",
                                     justifyContent: "start",
                                     borderRadius: "0",
+                                    "&:hover": {
+                                      backgroundColor: "rgba(0, 0, 0, 0.05)",
+                                      color: "var(--color-primary)",
+                                    },
+                                    "& .MuiTouchRipple-child": {
+                                      backgroundColor:
+                                        "rgba(0, 0, 0, 0.5) !important",
+                                    },
                                   }}
                                 >
                                   Footwear
@@ -165,6 +210,14 @@ const Navigation = () => {
                                     textAlign: "left",
                                     justifyContent: "start",
                                     borderRadius: "0",
+                                    "&:hover": {
+                                      backgroundColor: "rgba(0, 0, 0, 0.05)",
+                                      color: "var(--color-primary)",
+                                    },
+                                    "& .MuiTouchRipple-child": {
+                                      backgroundColor:
+                                        "rgba(0, 0, 0, 0.5) !important",
+                                    },
                                   }}
                                 >
                                   Watch
@@ -185,6 +238,13 @@ const Navigation = () => {
                             textAlign: "left",
                             justifyContent: "start",
                             borderRadius: "0",
+                            "&:hover": {
+                              backgroundColor: "rgba(0, 0, 0, 0.05)",
+                              color: "var(--color-primary)",
+                            },
+                            "& .MuiTouchRipple-child": {
+                              backgroundColor: "rgba(0, 0, 0, 0.5) !important",
+                            },
                           }}
                         >
                           Women
@@ -201,6 +261,13 @@ const Navigation = () => {
                             textAlign: "left",
                             justifyContent: "start",
                             borderRadius: "0",
+                            "&:hover": {
+                              backgroundColor: "rgba(0, 0, 0, 0.05)",
+                              color: "var(--color-primary)",
+                            },
+                            "& .MuiTouchRipple-child": {
+                              backgroundColor: "rgba(0, 0, 0, 0.5) !important",
+                            },
                           }}
                         >
                           Kids
@@ -217,6 +284,13 @@ const Navigation = () => {
                             textAlign: "left",
                             justifyContent: "start",
                             borderRadius: "0",
+                            "&:hover": {
+                              backgroundColor: "rgba(0, 0, 0, 0.05)",
+                              color: "var(--color-primary)",
+                            },
+                            "& .MuiTouchRipple-child": {
+                              backgroundColor: "rgba(0, 0, 0, 0.5) !important",
+                            },
                           }}
                         >
                           Girls
@@ -233,6 +307,13 @@ const Navigation = () => {
                             textAlign: "left",
                             justifyContent: "start",
                             borderRadius: "0",
+                            "&:hover": {
+                              backgroundColor: "rgba(0, 0, 0, 0.05)",
+                              color: "var(--color-primary)",
+                            },
+                            "& .MuiTouchRipple-child": {
+                              backgroundColor: "rgba(0, 0, 0, 0.5) !important",
+                            },
                           }}
                         >
                           Boys
@@ -253,6 +334,9 @@ const Navigation = () => {
                         backgroundColor: "rgba(0,0,0,0.05)",
                         color: "var(--color-primary)",
                       },
+                      "& .MuiTouchRipple-child": {
+                        backgroundColor: "rgba(0, 0, 0, 0.5) !important",
+                      },
                     }}
                   >
                     Electronics
@@ -269,6 +353,9 @@ const Navigation = () => {
                       "&:hover": {
                         backgroundColor: "rgba(0,0,0,0.05)",
                         color: "var(--color-primary)",
+                      },
+                      "& .MuiTouchRipple-child": {
+                        backgroundColor: "rgba(0, 0, 0, 0.5) !important",
                       },
                     }}
                   >
@@ -287,6 +374,9 @@ const Navigation = () => {
                         backgroundColor: "rgba(0,0,0,0.05)",
                         color: "var(--color-primary)",
                       },
+                      "& .MuiTouchRipple-child": {
+                        backgroundColor: "rgba(0, 0, 0, 0.5) !important",
+                      },
                     }}
                   >
                     Footwear
@@ -303,6 +393,9 @@ const Navigation = () => {
                       "&:hover": {
                         backgroundColor: "rgba(0,0,0,0.05)",
                         color: "var(--color-primary)",
+                      },
+                      "& .MuiTouchRipple-child": {
+                        backgroundColor: "rgba(0, 0, 0, 0.5) !important",
                       },
                     }}
                   >
@@ -321,6 +414,9 @@ const Navigation = () => {
                         backgroundColor: "rgba(0,0,0,0.05)",
                         color: "var(--color-primary)",
                       },
+                      "& .MuiTouchRipple-child": {
+                        backgroundColor: "rgba(0, 0, 0, 0.5) !important",
+                      },
                     }}
                   >
                     Beauty
@@ -338,6 +434,9 @@ const Navigation = () => {
                         backgroundColor: "rgba(0,0,0,0.05)",
                         color: "var(--color-primary)",
                       },
+                      "& .MuiTouchRipple-child": {
+                        backgroundColor: "rgba(0, 0, 0, 0.5) !important",
+                      },
                     }}
                   >
                     Welness
@@ -354,6 +453,9 @@ const Navigation = () => {
                       "&:hover": {
                         backgroundColor: "rgba(0,0,0,0.05)",
                         color: "var(--color-primary)",
+                      },
+                      "& .MuiTouchRipple-child": {
+                        backgroundColor: "rgba(0, 0, 0, 0.5) !important",
                       },
                     }}
                   >

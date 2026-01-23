@@ -45,6 +45,8 @@
 }
 .col2navList li .submenuDropdown {
   visibility: hidden;
+  opacity: 0;
+  z-index: 1000;
 }
 .col2navList li .submenuDropdown button{
   font-weight: 400;
@@ -140,8 +142,6 @@
 .submenuListItem {
   list-style: none;
   position: relative;
-}
-.categoryPanel {
 }
 .menuLink {
   display: flex;
