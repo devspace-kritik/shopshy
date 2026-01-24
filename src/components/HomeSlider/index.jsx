@@ -12,7 +12,7 @@ const HomeSlider = () => {
    <div className="homeSlider">
     <div className="container">
          <Swiper navigation={true} loop spaceBetween={15} slidesPerView="auto" centeredSlides={true}  modules={[Navigation]} className="swiperContainer">
-        <SwiperSlide className='swiperSlide'>
+        <SwiperSlide>
             <img src="https://api.spicezgold.com/download/file_1734524878924_1721277298204_banner.jpg" alt="Banner slide" className='sliderImage' />  
         </SwiperSlide>
         <SwiperSlide>
