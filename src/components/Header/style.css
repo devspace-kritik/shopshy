@@ -1,0 +1,92 @@
+.header-container{
+  background-color: white;
+}
+.top-strip {
+  padding: 0.5rem 0;
+  border-top: 2.5px solid #f3f4f6;
+  border-bottom: 2.5px solid #f3f4f6;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.col1 {
+  width: 50%;
+}
+.col1-heading-text {
+  font-size: 13px;
+  font-weight: 500;
+}
+.col2 {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.link:hover {
+  color: var(--color-primary);
+}
+.top-header-list-item {
+  list-style: none;
+}
+.header-list-text {
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-list-text:hover {
+  color: var(--color-primary);
+}
+.top-header-list-container {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.main-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-header {
+  padding: 0.75rem 0;
+  border-bottom: 2.5px solid #f3f4f6;
+}
+.main-col1 {
+  width: 25%;
+}
+.main-col2 {
+  width: 45%;
+}
+.main-col3 {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  padding-left: 1.75rem;
+}
+.signupList{
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  justify-content: end;
+}
+.signupListItem{
+  list-style: none;
+}
+.signupButton{
+  background-color: var(--color-primary);
+  color: white;
+}
+.loginLinkStyle{
+  font-size: 15px;
+  font-weight: 500;
+  transition: all, 150ms, cubic-bezier(0.4, 0, 0.2, 1);
+}
+.MuiBadge-badge{
+  background-color: var(--color-primary) !important;
+}
