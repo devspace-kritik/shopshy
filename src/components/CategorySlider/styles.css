@@ -1,8 +1,12 @@
 .homeCategorySlider{
-    margin: 1rem 0;
+    margin-top: 20px;
+  width: 100%;
   
 }
 .categoryContainer{
+    width: 100%;
+    /* background-color: yellow; */
+    padding-inline: 1rem;
     /* max-width: 1320px; */
      /* width: 100%;
   margin-left: auto;
@@ -11,35 +15,43 @@
 .categorySwiper{
     /* width: 100%; */
 }
-.swiper-slide{
-    /* margin-right: 0px; */
-}
 .homeCategorySlider .swiperSlide{
-   padding: 1.75rem;
+   padding: 0.5rem;
     background-color: white;
-    border-radius: 4px;  
-    text-align: center;
+    /* border-radius: 4px;   */
+    /* text-align: center; */
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     flex-direction: column;
-    height: 100%;
+    gap: 0.5rem;
+    /* background-color: red; */
+}
+.homeCategorySlider .swiper-slide{
+    width: clamp(6.5rem, 10vw, 8.5rem);
+    min-width: 6.5rem;
+    flex-shrink: 0;
+    align-items: stretch;
 }
 .homeCategorySlider .swiperSlide .sliderImage{
    width: 100%;
-  max-width: 70px;    
-  min-width: 40px;    
-  height: auto;
+  max-width: 100%;   
    aspect-ratio: 1/1;
-  object-fit: contain;
+  object-fit: cover;
   transition-property: all;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 transition-duration: 150ms;   
 }
 .imageName{
-    font-size: 15px;
-    font-weight: 500;
-    margin-top: 0.75rem;
+    font-size: 0.875rem;
+    text-align: center;
+    line-height: 1.2;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* font-weight: 500; */
+    /* margin-top: 0.75rem; */
 }
 .homeCategorySlider .swiper-button-prev{
      width: 30px;

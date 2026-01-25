@@ -15,10 +15,13 @@ const CategorySlider = () => {
       <div className="categoryContainer">
         <Swiper
           navigation = {true}
-          slidesPerView={8}
+          slidesPerView={"auto"}
+          freeMode= {true}
+          watchOverflow={true}
+           grabCursor={true}
           spaceBetween={10}
           modules={[Navigation]}
-          className="categorySwiper"
+          className="categorySwiper1"
         >
           <SwiperSlide>
             <Link to={'/'}>
