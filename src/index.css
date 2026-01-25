@@ -1,5 +1,16 @@
-@import "tailwindcss";     
-
-body {
-  background: purple;
+@import "tailwindcss";   
+:root{
+  --color-primary: #ff5252;
+  --bg-primary: #ff5252;
+} 
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
+body{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #f5f0f0;
+  overflow-x: hidden;
+} 
