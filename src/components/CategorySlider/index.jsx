@@ -1,7 +1,5 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 
@@ -21,7 +19,6 @@ const CategorySlider = () => {
            grabCursor={true}
           spaceBetween={10}
           modules={[Navigation]}
-          className="categorySwiper1"
         >
           <SwiperSlide>
             <Link to={'/'}>
