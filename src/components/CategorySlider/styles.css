@@ -5,27 +5,18 @@
 }
 .categoryContainer{
     width: 100%;
-    /* background-color: yellow; */
     padding-inline: 1rem;
-    /* max-width: 1320px; */
-     /* width: 100%;
-  margin-left: auto;
-  margin-right: auto; */
-}
-.categorySwiper{
-    /* width: 100%; */
 }
 .homeCategorySlider .swiperSlide{
    padding: 0.5rem;
     background-color: white;
-    /* border-radius: 4px;   */
-    /* text-align: center; */
+    border-radius: 4px;  
+    text-align: center;
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 0.5rem;
-    /* background-color: red; */
 }
 .homeCategorySlider .swiper-slide{
     width: clamp(6.5rem, 10vw, 8.5rem);
@@ -50,8 +41,8 @@ transition-duration: 150ms;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    /* font-weight: 500; */
-    /* margin-top: 0.75rem; */
+    font-weight: 500;
+    margin-top: 0.75rem;
 }
 .homeCategorySlider .swiper-button-prev{
      width: 30px;
